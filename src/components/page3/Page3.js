@@ -41,9 +41,38 @@ class Page3 extends React.Component
     {
         this.setState({active_bullet:num})
     }
+    onLeft=()=>
+    {
+        if(this.state.active_bullet===1)
+        {
+            this.setState({active_bullet:4});
+            this.onChange(this.state.active_bullet);
+        }
+        else
+        {
+            const update=this.state.active_bullet-1
+            this.setState({active_bullet:update});
+            this.onChange(this.state.active_bullet);
+        }
+        // this.render();
+    }
+    onRight=()=>
+    {
+        if(this.state.active_bullet===4)
+        {
+            this.setState({active_bullet:1});
+            this.onChange(this.state.active_bullet);
+        }
+        else
+        {
+            const update=this.state.active_bullet+1
+            this.setState({active_bullet:update});
+            this.onChange(this.state.active_bullet);
+        }
+        // this.render();
+    }
     render()
     {
-        console.log(this.state.active_bullet)
         return(
             <div className="page3">
                 <img className="stove" src={stove}></img>
@@ -60,7 +89,8 @@ class Page3 extends React.Component
                     </div>
                     <img className="type_svg" src={this.state.active_svg}></img>
                     <div className="navigation_type_container">
-
+                        <div className="type_direction" onClick={this.onLeft}>{"<"}</div>
+                        <div className="type_direction" onClick={this.onRight}>{">"}</div>
                     </div>
                 </div>
             </div>

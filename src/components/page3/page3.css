@@ -12,20 +12,22 @@
 .types
 {
     margin:0px;
-    height:30vw;
+    height:35vw;
     width:70vw;
     /* border-style: solid; */
     border-radius: 15px;
     color:#FFFFFF;
     display: inline-block;
-    background: #D68787;
+    background: linear-gradient(45deg,#BB5959,#D07878);
+    background-image: url("./back.png");
+    background-size: cover;
     text-align:center;
     /* display: flex; */
 }
 .type_heading
 {
     margin: 0px;
-    margin-top: 6%;
+    margin-top: 5%;
     font-weight: 400;
     font-size: 3em;
 }
@@ -42,7 +44,7 @@
 }
 .bullet_container
 {
-    margin-top: 3%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-around;
     padding-left: 15%;
@@ -52,5 +54,32 @@
 .type_svg
 {
     margin:0px;
+    /* margin-top: 1%; */
+    height: 25%;
+}
+.navigation_type_container
+{
     margin-top: 4%;
+    height: 5.5%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 45%;
+    padding-right: 45%;
+}
+.type_direction
+{
+    height: 90%;
+    width: 28.5%;
+    
+    /* border-style: solid; */
+    border-radius: 50%;
+    background:#FFFFFF;
+    color:#BB5959;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+    font-weight: 700;
+    font-size: 1.7em;
+    cursor: pointer;
 }
