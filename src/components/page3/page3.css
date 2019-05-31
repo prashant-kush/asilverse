@@ -1,0 +1,56 @@
+.page3
+{
+    text-align: center;
+}
+.stove
+{
+    margin-top:8%;
+    width: 35vw;
+    height: auto;
+    margin-bottom:8%;
+}
+.types
+{
+    margin:0px;
+    height:30vw;
+    width:70vw;
+    /* border-style: solid; */
+    border-radius: 15px;
+    color:#FFFFFF;
+    display: inline-block;
+    background: #D68787;
+    text-align:center;
+    /* display: flex; */
+}
+.type_heading
+{
+    margin: 0px;
+    margin-top: 6%;
+    font-weight: 400;
+    font-size: 3em;
+}
+/* .type_para_container
+{
+    display: flex;
+} */
+.type_para
+{
+    width: 60%;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 1.1em;
+}
+.bullet_container
+{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 20%;
+}
+.type_svg
+{
+    margin:0px;
+    margin-top: 4%;
+}

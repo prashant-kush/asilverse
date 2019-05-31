@@ -1,0 +1,170 @@
+#home
+{
+    text-align: left;
+    height: auto;
+    
+}
+#background
+{
+    margin: 0px;
+    width: 37.4vw;
+    height: auto;
+    float: right;
+    display: block;
+}
+.heading
+{
+  margin-top: 10%;
+  margin-left: 13%;
+  font-size: 3.5em;
+  font-weight: 700;
+}
+.para
+{
+    width: 35%;
+    margin-left: 13%;
+    font-weight: 450;
+}
+input
+{
+    margin-left: 7%;
+}
+@media only screen and (max-width: 1680px)
+{
+    .heading
+    {
+        font-size: 3.0em;
+        font-weight: 600;
+    }
+    .para
+    {
+        width: 35%;
+        font-weight: 400;
+        font-size:1.1em;
+    }
+}
+@media only screen and (max-width: 1525px)
+{
+    .heading
+    {
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    .para
+    {
+        width: 35%;
+        font-weight: 400;
+        font-size:0.9em;
+    }
+}
+@media only screen and (max-width: 1366px)
+{
+    .heading
+    {
+        font-size: 2.2em;
+        font-weight: 450;
+        margin-left: 10%;
+    }
+    .para
+    {
+        width: 35%;
+        font-weight: 350;
+        font-size:0.8em;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 1200px)
+{
+    .heading
+    {
+        font-size: 2.1em;
+        font-weight: 450;
+        margin-left: 8%;
+    }
+    .para
+    {
+        width: 35%;
+        font-size:0.8em;
+        margin-left: 8%;
+    }
+   
+}
+@media only screen and (max-width: 900px)
+{
+    .heading
+    {
+        font-size: 2.0em;
+        font-weight: 400;
+        margin-left: 7%;
+    }
+    .para
+    {
+        width: 45%;
+        font-size:0.8em;
+        margin-left: 7%;
+    }
+}
+/* @media only screen and (max-width: 800px)
+{
+    .para
+    {
+        font-size:0.8em;
+        margin-left: 7%;
+        width: 40%;
+    }
+    .heading
+    {
+        margin-top: 6%;
+    }
+} */
+@media only screen and (max-width: 800px)
+{
+    .para
+    {
+        font-size:0.7em;
+        margin-left: 7%;
+        width: 40%;
+    }
+    .heading
+    {
+        font-size: 1.7em;
+        font-weight: 350;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width: 650px)
+{
+    .heading
+    {
+        font-size: 1.5em;
+        font-weight: 350;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .para
+    {
+        font-size:0.6em;
+        margin-left: 5%;
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .heading
+    {
+        font-size: 0.9em;
+        font-weight: 300;
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+    .para
+    {
+        font-size:0.5em;
+        margin-left: 3%;
+        width: 55%;
+        font-weight: 250;
+        margin-left: 3%;
+    }
+}
+

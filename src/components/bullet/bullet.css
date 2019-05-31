@@ -1,0 +1,11 @@
+.bullet
+{
+    /* border-style: solid; */
+    border-radius:50%;
+    height: 70%;
+    background: #BB5959;
+    width: 8.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
