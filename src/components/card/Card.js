@@ -11,7 +11,7 @@ import h from "./Panspot.svg";
 import i from "./CRC.svg";
 import j from "./Dip tray.svg";
 import k from "./Body.svg";
-const v ="a";
+
 class SimpleCard extends React.Component
 {
     constructor(props)
@@ -36,7 +36,7 @@ class SimpleCard extends React.Component
         return(
                 <div className="card">
                     <h3 className="card_heading">{this.props.heading}</h3>
-                    <img src={v} />
+                    <img className="card_image" src={a} />
                 
                     <para className="card_para">
                         Aliqua anim proident excepteur in consequat enim enim.
