@@ -17,23 +17,11 @@ class SimpleCard extends React.Component
     constructor(props)
     {
         super(props);
-    }
-    
-       
-        
+    }  
     render()
     {
-    //     if(this.props.path==="a")
-    //     v=a; 
-    //     else if(this.props.path==="b")
-    //     v=b;
-    //    else if(this.props.path==="c")
-    //    v=c;
-    //    else if(this.props.path==="d")
-    //    v=d;
-    //    else if(this.props.path==="e")
-    //    v=e;
-        return(
+        if(this.props.path==="a")
+            return(
                 <div className="card">
                     <h3 className="card_heading">{this.props.heading}</h3>
                     <img className="card_image" src={a} />
@@ -43,7 +31,127 @@ class SimpleCard extends React.Component
                         Officia dolor magna Lorem ut excepteur.
                     </para>
                 </div>
-        );
+            );
+        else if(this.props.path==="b")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={b} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="c")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={c} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="d")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={d} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="e")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={e} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="f")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={f} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="g")   
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={g} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="h")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={h} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="i")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={i} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="j")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={j} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
+        else if(this.props.path==="k")
+            return(
+                <div className="card">
+                    <h3 className="card_heading">{this.props.heading}</h3>
+                    <img className="card_image" src={k} />
+                
+                    <para className="card_para">
+                        Aliqua anim proident excepteur in consequat enim enim.
+                        Officia dolor magna Lorem ut excepteur.
+                    </para>
+                </div>
+            );
     }
 }
 export default SimpleCard;
