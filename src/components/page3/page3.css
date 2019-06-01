@@ -387,3 +387,50 @@
         font-size: 0.5em;
     }
 }
+@media only screen and (max-width: 450px)
+{
+    .type_heading
+    {
+        font-weight: 150;
+        font-size: 0.60em;
+    }
+    .type_para
+    {
+        font-weight: 100;
+        font-size: 0.25em;
+    }
+    .type_svg
+    {
+        height: 14%;
+    }
+    .type_direction
+    {
+        font-size: 0.4em;
+    }
+}
+@media only screen and (max-width: 400px)
+{
+    .type_heading
+    {
+        font-weight: 100;
+        font-size: 0.50em;
+    }
+    .type_para
+    {
+        font-weight: 100;
+        font-size: 0.15em;
+    }
+    .type_para_container
+    {
+        height: 17%;
+        overflow: hidden;
+    }
+    .type_svg
+    {
+        height: 13%;
+    }
+    .type_direction
+    {
+        font-size: 0.2em;
+    }
+}

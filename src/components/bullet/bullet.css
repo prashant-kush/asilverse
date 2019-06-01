@@ -69,3 +69,10 @@
     font-size:0.50em;
   }
 }
+@media only screen and (max-width: 450px)
+{
+  .bullet
+  {
+    font-size:0.45em;
+  }
+}
