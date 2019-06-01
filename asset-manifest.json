@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/asilverse/static/css/main.3003b8fc.chunk.css",
+    "main.css": "/asilverse/static/css/main.b1f6bbf6.chunk.css",
     "main.js": "/asilverse/static/js/main.26a9cfe7.chunk.js",
     "main.js.map": "/asilverse/static/js/main.26a9cfe7.chunk.js.map",
     "runtime~main.js": "/asilverse/static/js/runtime~main.9427365a.js",
@@ -8,9 +8,9 @@
     "static/js/2.aeb3d80f.chunk.js": "/asilverse/static/js/2.aeb3d80f.chunk.js",
     "static/js/2.aeb3d80f.chunk.js.map": "/asilverse/static/js/2.aeb3d80f.chunk.js.map",
     "index.html": "/asilverse/index.html",
-    "precache-manifest.074e1e3135b6bd15a35b43428a53c282.js": "/asilverse/precache-manifest.074e1e3135b6bd15a35b43428a53c282.js",
+    "precache-manifest.3db53b0a7704fe2c30cdd93d183341f6.js": "/asilverse/precache-manifest.3db53b0a7704fe2c30cdd93d183341f6.js",
     "service-worker.js": "/asilverse/service-worker.js",
-    "static/css/main.3003b8fc.chunk.css.map": "/asilverse/static/css/main.3003b8fc.chunk.css.map",
+    "static/css/main.b1f6bbf6.chunk.css.map": "/asilverse/static/css/main.b1f6bbf6.chunk.css.map",
     "static/media/Body.svg": "/asilverse/static/media/Body.7d2af30d.svg",
     "static/media/CRC.svg": "/asilverse/static/media/CRC.86aef940.svg",
     "static/media/Dip tray.svg": "/asilverse/static/media/Dip tray.95348c61.svg",
