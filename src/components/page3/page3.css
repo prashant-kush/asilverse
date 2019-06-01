@@ -95,6 +95,10 @@
         font-weight: 250;
         font-size: 1.0em;
     }
+    .type_direction
+    {
+        font-size: 1.6em;
+    }
 }
 @media only screen and (max-width: 1570px)
 {
@@ -108,6 +112,10 @@
         font-weight: 250;
         font-size: 0.95em;
     }
+    .type_direction
+    {
+        font-size: 1.5em;
+    }
 }
 @media only screen and (max-width: 1490px)
 {
@@ -120,6 +128,10 @@
     {
         font-weight: 250;
         font-size: 0.90em;
+    }
+    .type_direction
+    {
+        font-size: 1.4em;
     }
 }
 @media only screen and (max-width: 1415px)
@@ -138,6 +150,10 @@
     {
         height: 23%;
     }
+    .type_direction
+    {
+        font-size: 1.3em;
+    }
 }
 @media only screen and (max-width: 1335px)
 {
@@ -154,6 +170,10 @@
     .type_svg
     {
         height: 19%;
+    }
+    .type_direction
+    {
+        font-size: 1.2em;
     }
 }
 @media only screen and (max-width: 1200px)
@@ -172,6 +192,10 @@
     {
         height: 19%;
     }
+    .type_direction
+    {
+        font-size: 1.2em;
+    }
 }
 @media only screen and (max-width: 1140px)
 {
@@ -188,6 +212,10 @@
     .type_svg
     {
         height: 17%;
+    }
+    .type_direction
+    {
+        font-size: 1.1em;
     }
 }
 @media only screen and (max-width: 1000px)
@@ -206,7 +234,12 @@
     {
         height: 16.5%;
     }
+    .type_direction
+    {
+        font-size: 1.0em;
+    }
 }
+
 @media only screen and (max-width: 920px)
 {
     .type_heading
@@ -222,6 +255,10 @@
     .type_svg
     {
         height: 16.0%;
+    }
+    .type_direction
+    {
+        font-size: 1.0em;
     }
 }
 @media only screen and (max-width: 860px)
@@ -240,6 +277,10 @@
     {
         height: 15.8%;
     }
+    .type_direction
+    {
+        font-size: 0.9em;
+    }
 }
 @media only screen and (max-width: 780px)
 {
@@ -256,6 +297,10 @@
     .type_svg
     {
         height: 15.5%;
+    }
+    .type_direction
+    {
+        font-size: 0.9em;
     }
 }
 @media only screen and (max-width: 700px)
@@ -274,6 +319,10 @@
     {
         height: 15.0%;
     }
+    .type_direction
+    {
+        font-size: 0.8em;
+    }
 }
 @media only screen and (max-width: 660px)
 {
@@ -290,6 +339,10 @@
     .type_svg
     {
         height: 15.0%;
+    }
+    .type_direction
+    {
+        font-size: 0.7em;
     }
 }
 @media only screen and (max-width: 580px)
@@ -308,6 +361,10 @@
     {
         height: 15.0%;
     }
+    .type_direction
+    {
+        font-size: 0.6em;
+    }
 }
 @media only screen and (max-width: 500px)
 {
@@ -324,5 +381,9 @@
     .type_svg
     {
         height: 14.5%;
+    }
+    .type_direction
+    {
+        font-size: 0.5em;
     }
 }
