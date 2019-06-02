@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/asilverse/static/css/main.a9a2c442.chunk.css",
-    "main.js": "/asilverse/static/js/main.26a9cfe7.chunk.js",
-    "main.js.map": "/asilverse/static/js/main.26a9cfe7.chunk.js.map",
+    "main.css": "/asilverse/static/css/main.0080e571.chunk.css",
+    "main.js": "/asilverse/static/js/main.c2125bfe.chunk.js",
+    "main.js.map": "/asilverse/static/js/main.c2125bfe.chunk.js.map",
     "runtime~main.js": "/asilverse/static/js/runtime~main.9427365a.js",
     "runtime~main.js.map": "/asilverse/static/js/runtime~main.9427365a.js.map",
-    "static/js/2.aeb3d80f.chunk.js": "/asilverse/static/js/2.aeb3d80f.chunk.js",
-    "static/js/2.aeb3d80f.chunk.js.map": "/asilverse/static/js/2.aeb3d80f.chunk.js.map",
+    "static/js/2.d29e4203.chunk.js": "/asilverse/static/js/2.d29e4203.chunk.js",
+    "static/js/2.d29e4203.chunk.js.map": "/asilverse/static/js/2.d29e4203.chunk.js.map",
     "index.html": "/asilverse/index.html",
-    "precache-manifest.ca335c9459809262e20729f49305a87e.js": "/asilverse/precache-manifest.ca335c9459809262e20729f49305a87e.js",
+    "precache-manifest.163b484d8561b8d4e9427f911cdc03a8.js": "/asilverse/precache-manifest.163b484d8561b8d4e9427f911cdc03a8.js",
     "service-worker.js": "/asilverse/service-worker.js",
-    "static/css/main.a9a2c442.chunk.css.map": "/asilverse/static/css/main.a9a2c442.chunk.css.map",
+    "static/css/main.0080e571.chunk.css.map": "/asilverse/static/css/main.0080e571.chunk.css.map",
     "static/media/Body.svg": "/asilverse/static/media/Body.7d2af30d.svg",
     "static/media/CRC.svg": "/asilverse/static/media/CRC.86aef940.svg",
     "static/media/Dip tray.svg": "/asilverse/static/media/Dip tray.95348c61.svg",
@@ -29,7 +29,6 @@
     "static/media/four.svg": "/asilverse/static/media/four.69ce405e.svg",
     "static/media/single.svg": "/asilverse/static/media/single.fc8f2619.svg",
     "static/media/stove.png": "/asilverse/static/media/stove.5f5f9394.png",
-    "static/media/triple.svg": "/asilverse/static/media/triple.18ef11de.svg",
-    "static/media/index.css": "/asilverse/static/media/uniBack.9acbca29.png"
+    "static/media/triple.svg": "/asilverse/static/media/triple.18ef11de.svg"
   }
 }

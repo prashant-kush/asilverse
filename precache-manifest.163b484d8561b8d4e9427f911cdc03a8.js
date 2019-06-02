@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e289739eea023d18d26c39926d9fce28",
+    "revision": "e281d0b1a51e72088524a916243428ba",
     "url": "/asilverse/index.html"
   },
   {
-    "revision": "6a25df7e5707152214c8",
-    "url": "/asilverse/static/css/main.a9a2c442.chunk.css"
+    "revision": "c0fd82a8317f836c74c5",
+    "url": "/asilverse/static/css/main.0080e571.chunk.css"
   },
   {
-    "revision": "8fff6f47566c43cf443c",
-    "url": "/asilverse/static/js/2.aeb3d80f.chunk.js"
+    "revision": "dcb0138d75b22d449eaf",
+    "url": "/asilverse/static/js/2.d29e4203.chunk.js"
   },
   {
-    "revision": "6a25df7e5707152214c8",
-    "url": "/asilverse/static/js/main.26a9cfe7.chunk.js"
+    "revision": "c0fd82a8317f836c74c5",
+    "url": "/asilverse/static/js/main.c2125bfe.chunk.js"
   },
   {
     "revision": "408fe7777b1a28f69fb8",
@@ -94,9 +94,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "18ef11de4ea316bd53ef8db597babb90",
     "url": "/asilverse/static/media/triple.18ef11de.svg"
-  },
-  {
-    "revision": "9acbca29ac10443fa6870af15d44919f",
-    "url": "/asilverse/static/media/uniBack.9acbca29.png"
   }
 ]);
