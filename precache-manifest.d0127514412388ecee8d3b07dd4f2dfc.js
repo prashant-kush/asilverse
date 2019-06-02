@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "368279e173264266e533b57b39ae0ae2",
+    "revision": "24075f047983c124bacca13e96ba4a5d",
     "url": "/asilverse/index.html"
   },
   {
-    "revision": "b5bf2025134f809f006e",
-    "url": "/asilverse/static/css/main.59077ff6.chunk.css"
+    "revision": "2a37f2f1b2c94e458003",
+    "url": "/asilverse/static/css/main.53a98ff1.chunk.css"
   },
   {
-    "revision": "dc8e3d3c26eb0e7bd1a7",
-    "url": "/asilverse/static/js/2.4ba2347e.chunk.js"
+    "revision": "13c6da715a45d0628aca",
+    "url": "/asilverse/static/js/2.3c69bf76.chunk.js"
   },
   {
-    "revision": "b5bf2025134f809f006e",
-    "url": "/asilverse/static/js/main.b23d2374.chunk.js"
+    "revision": "2a37f2f1b2c94e458003",
+    "url": "/asilverse/static/js/main.da49b48c.chunk.js"
   },
   {
     "revision": "408fe7777b1a28f69fb8",
