@@ -1,6 +1,6 @@
 .carousel_card
 {
-    width: 30vw;
+    width: 20vw;
     overflow: hidden;
     display: inline-block;
     height: 10vw;
@@ -15,8 +15,11 @@
 .carousel_card_heading
 {
     font-size: 0.95vw;
+    margin-left: 1vw;
 }
 .carousel_card_para
 {
     font-size: 0.8vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }

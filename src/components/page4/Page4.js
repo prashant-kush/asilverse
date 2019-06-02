@@ -41,6 +41,9 @@ class Page4 extends React.Component
                             <CarouselCard heading="Buy Individual Parts" />
                             <CarouselCard heading="Contact for repairs" />
                             <CarouselCard heading="Bulk Orders" />
+                            <CarouselCard heading="Buy Individual Parts" />
+                            <CarouselCard heading="Contact for repairs"/>
+                            <CarouselCard heading="Bulk Orders" />
                             </div>
                         </div>
                         <div className="carousel_direction">
