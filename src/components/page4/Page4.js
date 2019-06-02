@@ -2,6 +2,7 @@ import React from "react";
 import "./page4.css";
 import CarouselCard from "./CarouselCard.js";
 import Button from "./../button/Button.js";
+import Contact from "./../contact/Contact.js";
 var left=0;
 class Page4 extends React.Component
 {
@@ -23,6 +24,14 @@ class Page4 extends React.Component
         {left=left-element.offsetWidth/2.5;
         element.scrollLeft=left;}
     }
+    onClick=()=>
+    {
+        const ele = document.getElementsByClassName("contact")[0];
+        ele.style.visibility="visible";
+        document.getElementsByClassName("contact_card")[0].style.width="60vw";
+        document.getElementsByClassName("contact_card")[0].style.height="35vw";
+        document.getElementsByClassName("contact_card")[0].style.marginLeft="20vw";
+    }
     componentDidMount()
     {
         left=document.getElementsByClassName("slide")[0].scrollLeft;
@@ -31,6 +40,7 @@ class Page4 extends React.Component
     {
         return(
                 <div className="page4">
+                    <Contact /> 
                     <div className="carousel">
                     <h1 className="carousel_heading">Some of the Services<br></br>offered by us...</h1>
                         <div className="slide">
@@ -55,7 +65,7 @@ class Page4 extends React.Component
                         <h2 className="future_heading">
                             The Future of Stove is <span className="asilverse_stove">Asilverse Stove</span>
                         </h2>
-                        <div className="button_wrapper">
+                        <div className="button_wrapper" onClick={this.onClick}>
                             <Button title="Inquire" color="#BB5959" background="white" height="2.25vw" fontSize="1vw" width="11.5vw"/>
                         </div>
                     </div>

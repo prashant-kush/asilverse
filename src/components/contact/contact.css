@@ -1,23 +1,111 @@
 .contact
 {
+    position: fixed;
     width: 100vw;
     height: 100vh;
-    background:rgba(0,0,0,0.7);
+    background:rgba(0,0,0,0.8);
     display: flex;
     justify-content: center;
     flex-direction: column;
+    top:0px;
+    left:0px;
+    z-index: 1;
+    visibility: hidden;
 }
 .contact_card
 {
-    width: 60vw;
-    height: 35vw;
+    width: 0vw;
+    height: 0vw;
     background: #BB5959;
     border-radius: 1vw;
-    margin-left: 20vw;
+    overflow: hidden;
+    margin-left: 50vw;
+    text-align: right;
+    transition-duration: 0.5s;
+    transition-property: width,margin-left,height;
+}
+.cut
+{
+    text-align: left;
+    width: 1vw;
+    margin-right: 1vw;
+    float: right;
+    font-size: 2vw;
+    font-weight: 500;
+    color: #ffffff;
+}
+.cut:hover
+{
+    cursor: pointer;
 }
 .name_subject_wrapper
 {
-    margin-top: 5vw;
+    margin-top: 4vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width:55vw;
+    margin-left: 2.5vw;
+    text-align: left;
+}
+.name
+{
+    margin: 0px;
+    font-size: 1.2vw;
+    text-align: left;
+    color:#ffffff;
+    text-align: left;
+}
+.name_subject_input
+{
+    margin: 0px;
+    border-style: none;
+    border-radius: 0.35vw;
+    height: 2vw;
+    width: 17vw;
+    background:#DA8686;
+    color: #ffffff;
+    font-size:1.2vw;
+    padding-left: 0.5vw;
+    text-align: left;
+}
+.subject
+{
+    margin: 0px;
+    font-size: 1.2vw;
+    text-align: left;
+    color:#ffffff;
+    text-align: left;
+}
+p
+{
+    margin: 0;
+}
+.message
+{
+    color: #ffffff;
+    font-size: 1.2vw;
+    margin-left: 7.45vw;
+    margin-top: 1.5vw;
+    text-align: left;
+}
+.message_input
+{
+    margin: 0px;
+    border-style: none;
+    border-radius: 0.35vw;
+    height: 15vw;
+    width: 44.5vw;
+    background:#DA8686;
+    color: #ffffff;
+    font-size:1vw;
+    padding-left: 0.5vw;
+    text-align: left;
+}
+input:focus,textarea:focus
+{
+    outline: none;
+}
+.contact_button_wrapper
+{
+    text-align: left;
 }

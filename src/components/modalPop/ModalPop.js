@@ -10,9 +10,10 @@ class ModalPop extends React.Component
     {
         const element=document.getElementsByClassName("modal_pop")[0];
         element.style.visibility="hidden";
-        document.getElementsByClassName("modal_card")[0].style.width="0vw";
-        document.getElementsByClassName("modal_card")[0].style.height="0vw";
-        document.getElementsByClassName("modal_card")[0].style.marginLeft="50vw";
+        const modal_card= document.getElementsByClassName("modal_card")[0];
+        modal_card.style.width="0vw";
+        modal_card.style.height="0vw";
+        modal_card.style.marginLeft="50vw";
     }
     render()
     {

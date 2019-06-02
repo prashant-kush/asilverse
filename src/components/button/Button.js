@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from '@material-ui/styles';
 import Button from '@material-ui/core/Button';
-const Input=({title,width,height,marginTop,marginLeft,fontSize,color,background})=>
+const Input=({title,width,height,marginTop,marginLeft,fontSize,color,background,fontWeight})=>
 {
     const useStyles = makeStyles({
         root: {
@@ -14,14 +14,16 @@ const Input=({title,width,height,marginTop,marginLeft,fontSize,color,background}
           marginTop: `${marginTop}`,
           height: `${height}`,
           padding: '0 2vw',
-          width: `${width}`
+          width: `${width}`,
+          fontWeight:`${fontWeight}`
         },
       });
       const classes = useStyles();
+      
       return(
             <Button variant="contained" color="primary" className={classes.root}>
               {title}
-            </Button>
+            </Button>  
       );
 }
 export default Input;

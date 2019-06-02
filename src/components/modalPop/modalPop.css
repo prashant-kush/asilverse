@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     flex-direction:column;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
     z-index:1;
     visibility: hidden;
 }
@@ -21,10 +21,9 @@
     border-radius:1vw;
     margin-left: 50vw;
     text-align: left;
-    opacity: 1;
     overflow: hidden;
     transition-property: width, margin-left, height;
-    transition-duration:1s;
+    transition-duration:0.5s;
 }
 .modal_card_inside_wrapper
 {
