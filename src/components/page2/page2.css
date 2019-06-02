@@ -1,13 +1,11 @@
 .page2
 {
-    /* display: flex;
-    justify-content: space-between;
-    flex-direction: column; */
+
 }
 .heading2
 {
     margin: 0px;
-    font-size: 3em;
+    font-size: 3vw;
 }
 .card_album
 {
@@ -16,18 +14,14 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    /* width: 70vw; */
     padding-left: 15.4vw;
     padding-right: 15.4vw;
-    /* height: 80vh; */
-    /* align-content:flex-start;  */
-
 }
 .para2
 {
-    font-size: 1.2em;
+    font-size: 1.2vw;
 }
-@media only screen and (max-width: 1680px)
+/* @media only screen and (max-width: 1680px)
 {
     .heading2
     {
@@ -130,7 +124,7 @@
         font-size:0.55em;
         font-weight: 250;
     }
-}
+} */
 
 
 

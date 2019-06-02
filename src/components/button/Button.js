@@ -8,12 +8,12 @@ const Input=({margin,height,font})=>
           background: 'linear-gradient(45deg, #BB5959 30%, #BB5959 90%)',
           border: 0,
           borderRadius: 3,
-          fontSize:`${font}`,
+          fontSize:`0.9vw`,
           color: 'white',
-          marginLeft: `${margin}`,
-          marginTop: '3%',
-          height: `${height}`,
-          padding: '0 30px',
+          marginLeft: `6vw`,
+          marginTop: '1.5vw',
+          height: `3vw`,
+          padding: '0 2vw',
         },
       });
       const classes = useStyles();

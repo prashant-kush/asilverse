@@ -4,433 +4,73 @@
 }
 .stove
 {
-    margin-top:8%;
+    margin-top:8vw;
     width: 35vw;
     height: auto;
-    margin-bottom:8%;
+    margin-bottom:8vw;
 }
 .types
 {
     margin:0px;
     height:35vw;
     width:70vw;
-    /* border-style: solid; */
-    border-radius: 15px;
+    border-radius: 1vw;
     color:#FFFFFF;
     display: inline-block;
     background: linear-gradient(45deg,#BB5959,#D07878);
     background-image: url("./back.png");
     background-size: cover;
     text-align:center;
-    /* display: flex; */
 }
 .type_heading
 {
     margin: 0px;
-    margin-top: 5%;
+    margin-top: 4vw;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2.3vw;
 }
-/* .type_para_container
-{
-    display: flex;
-} */
 .type_para
 {
-    width: 60%;
+    width: 45vw;
     font-weight: 300;
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 1vw;
 }
 .bullet_container
 {
-    margin-top: 2%;
+    margin-top: 1.5vw;
     display: flex;
     justify-content: space-around;
-    padding-left: 15%;
-    padding-right: 15%;
-    height: 20%;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    height: 5.88vw;
 }
 .type_svg
 {
     margin:0px;
-    /* margin-top: 1%; */
-    height: 25%;
+    height: 9vw;
 }
 .navigation_type_container
 {
-    margin-top: 4%;
-    height: 5.5%;
+    margin-top: 1.5vw;
+    height: 2vw;
     display: flex;
     justify-content: space-around;
-    padding-left: 45%;
-    padding-right: 45%;
+    padding-left: 31vw;
+    padding-right: 31vw;
 }
 .type_direction
 {
-    height: 90%;
-    width: 28.5%;
-    
-    /* border-style: solid; */
+    height: 1.8vw;
+    width:2.25vw;
     border-radius: 50%;
     background:#FFFFFF;
     color:#BB5959;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 5%;
+    padding-bottom: 0.30vw;
     font-weight: 700;
-    font-size: 1.7em;
+    font-size: 1.35vw;
     cursor: pointer;
-}
-@media only screen and (max-width: 1680px)
-{
-    .type_heading
-    {
-        font-weight: 350;
-        font-size: 2.4em;
-    }
-    .type_para
-    {
-        font-weight: 250;
-        font-size: 1.0em;
-    }
-    .type_direction
-    {
-        font-size: 1.6em;
-    }
-}
-@media only screen and (max-width: 1570px)
-{
-    .type_heading
-    {
-        font-weight: 350;
-        font-size: 2.3em;
-    }
-    .type_para
-    {
-        font-weight: 250;
-        font-size: 0.95em;
-    }
-    .type_direction
-    {
-        font-size: 1.5em;
-    }
-}
-@media only screen and (max-width: 1490px)
-{
-    .type_heading
-    {
-        font-weight: 350;
-        font-size: 2.2em;
-    }
-    .type_para
-    {
-        font-weight: 250;
-        font-size: 0.90em;
-    }
-    .type_direction
-    {
-        font-size: 1.4em;
-    }
-}
-@media only screen and (max-width: 1415px)
-{
-    .type_heading
-    {
-        font-weight: 350;
-        font-size: 2.2em;
-    }
-    .type_para
-    {
-        font-weight: 250;
-        font-size: 0.85em;
-    }
-    .type_svg
-    {
-        height: 23%;
-    }
-    .type_direction
-    {
-        font-size: 1.3em;
-    }
-}
-@media only screen and (max-width: 1335px)
-{
-    .type_heading
-    {
-        font-weight: 350;
-        font-size: 2.1em;
-    }
-    .type_para
-    {
-        font-weight: 250;
-        font-size: 0.85em;
-    }
-    .type_svg
-    {
-        height: 19%;
-    }
-    .type_direction
-    {
-        font-size: 1.2em;
-    }
-}
-@media only screen and (max-width: 1200px)
-{
-    .type_heading
-    {
-        font-weight: 300;
-        font-size: 1.9em;
-    }
-    .type_para
-    {
-        font-weight: 200;
-        font-size: 0.80em;
-    }
-    .type_svg
-    {
-        height: 19%;
-    }
-    .type_direction
-    {
-        font-size: 1.2em;
-    }
-}
-@media only screen and (max-width: 1140px)
-{
-    .type_heading
-    {
-        font-weight: 250;
-        font-size: 1.8em;
-    }
-    .type_para
-    {
-        font-weight: 170;
-        font-size: 0.75em;
-    }
-    .type_svg
-    {
-        height: 17%;
-    }
-    .type_direction
-    {
-        font-size: 1.1em;
-    }
-}
-@media only screen and (max-width: 1000px)
-{
-    .type_heading
-    {
-        font-weight: 250;
-        font-size: 1.7em;
-    }
-    .type_para
-    {
-        font-weight: 170;
-        font-size: 0.70em;
-    }
-    .type_svg
-    {
-        height: 16.5%;
-    }
-    .type_direction
-    {
-        font-size: 1.0em;
-    }
-}
-
-@media only screen and (max-width: 920px)
-{
-    .type_heading
-    {
-        font-weight: 250;
-        font-size: 1.6em;
-    }
-    .type_para
-    {
-        font-weight: 170;
-        font-size: 0.65em;
-    }
-    .type_svg
-    {
-        height: 16.0%;
-    }
-    .type_direction
-    {
-        font-size: 1.0em;
-    }
-}
-@media only screen and (max-width: 860px)
-{
-    .type_heading
-    {
-        font-weight: 250;
-        font-size: 1.5em;
-    }
-    .type_para
-    {
-        font-weight: 170;
-        font-size: 0.60em;
-    }
-    .type_svg
-    {
-        height: 15.8%;
-    }
-    .type_direction
-    {
-        font-size: 0.9em;
-    }
-}
-@media only screen and (max-width: 780px)
-{
-    .type_heading
-    {
-        font-weight: 220;
-        font-size: 1.3em;
-    }
-    .type_para
-    {
-        font-weight: 100;
-        font-size: 0.50em;
-    }
-    .type_svg
-    {
-        height: 15.5%;
-    }
-    .type_direction
-    {
-        font-size: 0.9em;
-    }
-}
-@media only screen and (max-width: 700px)
-{
-    .type_heading
-    {
-        font-weight: 200;
-        font-size: 1.1em;
-    }
-    .type_para
-    {
-        font-weight: 100;
-        font-size: 0.50em;
-    }
-    .type_svg
-    {
-        height: 15.0%;
-    }
-    .type_direction
-    {
-        font-size: 0.8em;
-    }
-}
-@media only screen and (max-width: 660px)
-{
-    .type_heading
-    {
-        font-weight: 200;
-        font-size: 0.9em;
-    }
-    .type_para
-    {
-        font-weight: 100;
-        font-size: 0.45em;
-    }
-    .type_svg
-    {
-        height: 15.0%;
-    }
-    .type_direction
-    {
-        font-size: 0.7em;
-    }
-}
-@media only screen and (max-width: 580px)
-{
-    .type_heading
-    {
-        font-weight: 150;
-        font-size: 0.8em;
-    }
-    .type_para
-    {
-        font-weight: 100;
-        font-size: 0.40em;
-    }
-    .type_svg
-    {
-        height: 15.0%;
-    }
-    .type_direction
-    {
-        font-size: 0.6em;
-    }
-}
-@media only screen and (max-width: 500px)
-{
-    .type_heading
-    {
-        font-weight: 150;
-        font-size: 0.65em;
-    }
-    .type_para
-    {
-        font-weight: 100;
-        font-size: 0.30em;
-    }
-    .type_svg
-    {
-        height: 14.5%;
-    }
-    .type_direction
-    {
-        font-size: 0.5em;
-    }
-}
-@media only screen and (max-width: 450px)
-{
-    .type_heading
-    {
-        font-weight: 150;
-        font-size: 0.60em;
-    }
-    .type_para
-    {
-        font-weight: 100;
-        font-size: 0.25em;
-    }
-    .type_svg
-    {
-        height: 14%;
-    }
-    .type_direction
-    {
-        font-size: 0.4em;
-    }
-}
-@media only screen and (max-width: 400px)
-{
-    .type_heading
-    {
-        font-weight: 100;
-        font-size: 0.50em;
-    }
-    .type_para
-    {
-        font-weight: 100;
-        font-size: 0.15em;
-    }
-    .type_para_container
-    {
-        height: 17%;
-        overflow: hidden;
-    }
-    .type_svg
-    {
-        height: 13%;
-    }
-    .type_direction
-    {
-        font-size: 0.2em;
-    }
 }

@@ -1,0 +1,71 @@
+.page4
+{
+    text-align: left;
+    margin-top: 10vw;
+    /* padding-left: 10vw; */
+    /* padding-right: 10vw; */
+    /* display: inline-block; */
+}
+.carousel
+{
+    /* overflow-y: hidden;
+    overflow-x: scroll; */
+    /* width: 100vw; */
+    /* border-style: solid; */
+
+}
+.carousel_heading
+{
+   font-size:2vw;
+   margin-left: 14vw;
+   font-weight: 450;
+   width:20vw;
+}
+.slide
+{
+    
+    overflow-y:hidden;
+    overflow-x:scroll;
+    scroll-behavior: smooth;
+    margin-top: 3vw;
+}
+.slider
+{
+    width: 215vw;
+    position: relative;
+}
+.slide::-webkit-scrollbar
+{
+    display: none;
+}
+.carousel_direction
+{
+    display: flex;
+    margin-left: 14vw;
+    margin-top: 4vw;
+    width: 7vw;
+    justify-content: space-between;
+}
+.carousel_direction_nav
+{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    min-height: 15px;
+    min-width: 15px;
+    background: #BB5959;
+    color:#FFFFFF;
+    font-size:2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}
+.carousel_direction_nav:hover
+{
+    background:#FFFFFF;
+    color:#BB5959;
+    cursor: pointer;
+}
+
+

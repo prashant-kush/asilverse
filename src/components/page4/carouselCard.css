@@ -1,0 +1,21 @@
+.carousel_card
+{
+    width: 30vw;
+    overflow: hidden;
+    display: inline-block;
+    height: 10vw;
+    padding-top: 1vw;
+    border-radius: 1vw;
+    margin-left:3vw;
+    box-shadow: 3px 3px 3px 3px #FAFAFA;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.carousel_card_heading
+{
+    font-size: 0.95vw;
+}
+.carousel_card_para
+{
+    font-size: 0.8vw;
+}
