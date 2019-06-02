@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec44dee2ae7ddeb9f28b9f2706fa84e1",
+    "revision": "6be5e4d2997084c602107e4bae956f17",
     "url": "/asilverse/index.html"
   },
   {
-    "revision": "b7facafdc78676b5731c",
-    "url": "/asilverse/static/css/main.546b00c2.chunk.css"
+    "revision": "34a5097ee80136d95be5",
+    "url": "/asilverse/static/css/main.59be13c3.chunk.css"
   },
   {
     "revision": "dcb0138d75b22d449eaf",
     "url": "/asilverse/static/js/2.d29e4203.chunk.js"
   },
   {
-    "revision": "b7facafdc78676b5731c",
-    "url": "/asilverse/static/js/main.84b82017.chunk.js"
+    "revision": "34a5097ee80136d95be5",
+    "url": "/asilverse/static/js/main.fb06d4ef.chunk.js"
   },
   {
     "revision": "408fe7777b1a28f69fb8",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/asilverse/static/media/Regulator.97180bb7.svg"
   },
   {
-    "revision": "29baa7ec3f88d48b5fcce713a563a872",
-    "url": "/asilverse/static/media/back.29baa7ec.png"
+    "revision": "2ae5a46e01fa53db028a7e66a98253e4",
+    "url": "/asilverse/static/media/back.2ae5a46e.png"
   },
   {
-    "revision": "51371029efe5e5e2eb5d9f9de0e39a38",
-    "url": "/asilverse/static/media/back.51371029.png"
+    "revision": "9667fc759470e1ad23d06a4ce6126b2e",
+    "url": "/asilverse/static/media/back.9667fc75.png"
   },
   {
     "revision": "02ea739709d5a6f968a376e58f0f0ccf",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/asilverse/static/media/single.fc8f2619.svg"
   },
   {
-    "revision": "5f5f93948e95f96047e22f2ce5afec8c",
-    "url": "/asilverse/static/media/stove.5f5f9394.png"
+    "revision": "510a5f24210b68fe9681658055c982f7",
+    "url": "/asilverse/static/media/stove.510a5f24.png"
   },
   {
     "revision": "18ef11de4ea316bd53ef8db597babb90",
