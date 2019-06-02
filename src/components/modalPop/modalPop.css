@@ -1,0 +1,54 @@
+.modal_pop
+{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    background: rgba(0,0,0,0.7);
+    z-index:1;
+    visibility: hidden;
+}
+
+.modal_card
+{
+    width: 0vw;
+    height: 0vw;
+    background: rgba(255,255,255,1);
+    border-radius:1vw;
+    margin-left: 50vw;
+    text-align: left;
+    opacity: 1;
+    overflow: hidden;
+    transition-property: width, margin-left, height;
+    transition-duration:1s;
+}
+.modal_card_inside_wrapper
+{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.modal_card_inside
+{
+    width: 15vw;
+    height: 10vw;
+    background:#F0F0F0;
+    border-radius: 0.7vw;
+}
+.modal_heading
+{
+    margin-top:4vw;
+    margin-left: 4vw;
+    font-size:1.1vw;
+}
+.modal_para
+{
+    font-size:1vw;
+    margin-left: 4vw;
+}
