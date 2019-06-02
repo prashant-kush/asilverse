@@ -50,10 +50,13 @@ class Page4 extends React.Component
                     </div>
                     <div className="future">
                         <h2 className="future_heading">
-                            The Future of Stove is Asilverse Stove
+                            The Future of Stove is <span className="asilverse_stove">Asilverse Stove</span>
                         </h2>
-                        <Button />
+                        <div className="button_wrapper">
+                            <Button title="Inquire" color="#BB5959" background="white" height="2.25vw" fontSize="1vw" width="11.5vw"/>
+                        </div>
                     </div>
+                    <hr className="line" />
                     
                 </div>
         );

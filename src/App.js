@@ -21,7 +21,6 @@ class App extends React.Component {
   }
   onResize=()=>
 	{
-    
 		const w=window.innerWidth;
     this.setState(Object.assign(this.state,{width:w}));
     document.getElementById("home").style.height=this.state.width*0.374*1.447+'px';
@@ -39,7 +38,7 @@ class App extends React.Component {
   {
     return (
       <div className="App">
-        <Home margin={this.state.marginButton} height={this.state.heightButton} font={this.state.fontButton} />
+        <Home />
         <Page2 />
         <Page3 />
         <Page4 width={this.state.width}/>

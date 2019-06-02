@@ -2,16 +2,9 @@
 {
     text-align: left;
     margin-top: 10vw;
-    /* padding-left: 10vw; */
-    /* padding-right: 10vw; */
-    /* display: inline-block; */
 }
 .carousel
 {
-    /* overflow-y: hidden;
-    overflow-x: scroll; */
-    /* width: 100vw; */
-    /* border-style: solid; */
 
 }
 .carousel_heading
@@ -23,7 +16,6 @@
 }
 .slide
 {
-    
     overflow-y:hidden;
     overflow-x:scroll;
     scroll-behavior: smooth;
@@ -67,5 +59,41 @@
     color:#BB5959;
     cursor: pointer;
 }
-
+.future
+{
+    border-radius: 0.8vw;
+    width: 60vw;
+    margin-left: 20vw;
+    text-align: center;
+    height: 9vw;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+    margin-top: 20vw;
+    background:#BB5959;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.future_heading
+{
+    margin: 0px;
+    font-size: 2vw;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.asilverse_stove
+{
+    font-weight: 400;
+}
+.button_wrapper
+{
+    display: inline-block;
+}
+.line
+{
+    /* margin: 0px; */
+    margin-top: 4vw;
+    width: 70vw;
+    color: #eeeeee;
+}
 

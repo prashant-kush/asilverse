@@ -1,25 +1,26 @@
 import React from "react";
 import { makeStyles } from '@material-ui/styles';
 import Button from '@material-ui/core/Button';
-const Input=({margin,height,font})=>
+const Input=({title,width,height,marginTop,marginLeft,fontSize,color,background})=>
 {
     const useStyles = makeStyles({
         root: {
-          background: 'linear-gradient(45deg, #BB5959 30%, #BB5959 90%)',
+          background: `linear-gradient(45deg, ${background} 30%, ${background} 90%)`,
           border: 0,
           borderRadius: 3,
-          fontSize:`0.9vw`,
-          color: 'white',
-          marginLeft: `6vw`,
-          marginTop: '1.5vw',
-          height: `3vw`,
+          fontSize:`${fontSize}`,
+          color: `${color}`,
+          marginLeft: `${marginLeft}`,
+          marginTop: `${marginTop}`,
+          height: `${height}`,
           padding: '0 2vw',
+          width: `${width}`
         },
       });
       const classes = useStyles();
       return(
             <Button variant="contained" color="primary" className={classes.root}>
-                Show me more
+              {title}
             </Button>
       );
 }
