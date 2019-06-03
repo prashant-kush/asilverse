@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
    background: url("back.png");
   background-size: cover;
+  background-repeat: no-repeat;
   user-select: none;
   /* background-repeat: no-repeat; */
 }
