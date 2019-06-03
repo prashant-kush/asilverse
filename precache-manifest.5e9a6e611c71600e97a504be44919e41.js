@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24075f047983c124bacca13e96ba4a5d",
+    "revision": "eb662f341fd6ab89be22a829cdffe134",
     "url": "/asilverse/index.html"
   },
   {
-    "revision": "2a37f2f1b2c94e458003",
-    "url": "/asilverse/static/css/main.53a98ff1.chunk.css"
+    "revision": "2033c0e7499bb2fd03a9",
+    "url": "/asilverse/static/css/main.ef493ff1.chunk.css"
   },
   {
-    "revision": "13c6da715a45d0628aca",
-    "url": "/asilverse/static/js/2.3c69bf76.chunk.js"
+    "revision": "3b180b371fad50be1406",
+    "url": "/asilverse/static/js/2.ca592f64.chunk.js"
   },
   {
-    "revision": "2a37f2f1b2c94e458003",
-    "url": "/asilverse/static/js/main.da49b48c.chunk.js"
+    "revision": "2033c0e7499bb2fd03a9",
+    "url": "/asilverse/static/js/main.68c22fd8.chunk.js"
   },
   {
     "revision": "408fe7777b1a28f69fb8",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/asilverse/static/media/double.6110a606.svg"
   },
   {
-    "revision": "c4616cba8f100236e43a69dcd83b4632",
-    "url": "/asilverse/static/media/fire.c4616cba.svg"
+    "revision": "e38c1c49d257996d4b24146d3fdfa8fa",
+    "url": "/asilverse/static/media/fire.e38c1c49.svg"
   },
   {
     "revision": "69ce405e8f74f66b56270883208b8a05",
