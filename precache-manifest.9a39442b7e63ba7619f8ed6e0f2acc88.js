@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f96ab7730f89d37c25b654af1d8dc5a1",
+    "revision": "cf944e12f900260708e5032918162698",
     "url": "/asilverse/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/asilverse/static/css/2.de94ca38.chunk.css"
   },
   {
-    "revision": "8fa8e71bf860b99bcfe3",
-    "url": "/asilverse/static/css/main.626cbe93.chunk.css"
+    "revision": "4631ce93ff65d639997c",
+    "url": "/asilverse/static/css/main.498d0b53.chunk.css"
   },
   {
     "revision": "c89ff10e63195a1a3bc7",
     "url": "/asilverse/static/js/2.70e86da0.chunk.js"
   },
   {
-    "revision": "8fa8e71bf860b99bcfe3",
-    "url": "/asilverse/static/js/main.423c3544.chunk.js"
+    "revision": "4631ce93ff65d639997c",
+    "url": "/asilverse/static/js/main.e0dbef15.chunk.js"
   },
   {
     "revision": "408fe7777b1a28f69fb8",
