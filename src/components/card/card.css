@@ -44,7 +44,25 @@
 {
     font-size: 0.9vw;
 }
-#shape
+.card:hover #shape
 {
-    fill:blue;
+    stroke:#ffffff;
+}
+.modal_image_container
+{
+    display: flex;
+    margin-top: 2vw;
+    justify-content: flex-start;
+}
+.modal_image
+{
+    width:3vw;
+    height: 3vw;
+    margin-left: 4vw;
+}
+.modal_image_heading
+{
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size:1.7vw;
 }
