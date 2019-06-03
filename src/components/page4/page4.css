@@ -97,6 +97,8 @@
 .button_wrapper
 {
     display: inline-block;
+    width: 11.5vw;
+    margin-left: 24.25vw;
 }
 .line
 {

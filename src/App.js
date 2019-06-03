@@ -38,7 +38,7 @@ class App extends React.Component {
   {
     return (
       <div className="App">
-        <Home />
+        <Home width={this.state.width}/>
         <Page2 />
         <Page3 />
         <Page4 width={this.state.width}/>

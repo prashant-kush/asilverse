@@ -18,7 +18,6 @@
   margin-left: 10vw;
   font-size: 2.8vw;
   font-weight: 450;
-  /* font-weight: 600; */
   font-family: CircularStd;
 }
 .para
@@ -35,4 +34,10 @@ input
 {
     margin-left: 6vw;
 }
-
+.home_button_wrapper
+{
+    width: 12vw;
+    height: 3vw;
+    margin-top: 4vw;
+    margin-left: 10vw;
+}

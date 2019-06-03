@@ -32,6 +32,7 @@ class Page2 extends React.Component
 
                     </div>
                     <img className="stove" src={stove}></img>
+                    <div className="shadow"></div>
                 </div>
 
             );
