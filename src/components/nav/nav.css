@@ -9,7 +9,7 @@
 {
     width: 35vw;
     margin: 0px;
-    margin-right: 8vw;
+    margin-right: 3vw;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -17,8 +17,9 @@
 #fire
 {
     margin: 0px;
-    margin-left: 6vw;
+    margin-left: 10vw;
     width: 3vw;
+    height: 3vw;
 }
 li
 {
@@ -27,6 +28,7 @@ li
     font-size:0.9vw;
     transition: font-size 0.1s;
     transition-timing-function: ease-in-out;
+    font-family: CircularStd;
 }
 li:hover
 {

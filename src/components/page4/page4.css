@@ -12,12 +12,13 @@
 }
 .carousel_heading
 {
-   font-size:2vw;
+   font-size:2.1vw;
    margin-left: 14vw;
-   font-weight: 450;
-   width:20vw;
+   font-weight: 400;
+   width:21vw;
    background: url("backComma.png");
    background-size: cover;
+   font-family: CircularStd;
 }
 .slide
 {
@@ -25,13 +26,11 @@
     overflow-x:scroll;
     scroll-behavior: smooth;
     margin-top: 2vw;
-    
 }
 .slider
 {
     width: 209.5vw;
     position: relative;
-    
 }
 .slide::-webkit-scrollbar
 {
@@ -50,11 +49,9 @@
     width: 3vw;
     height: 3vw;
     border-radius: 50%;
-    min-height: 15px;
-    min-width: 15px;
     background: #BB5959;
     color:#FFFFFF;
-    font-size:2vw;
+    font-size:1.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,13 +83,16 @@
 .future_heading
 {
     margin: 0px;
-    font-size: 2vw;
-    font-weight: 300;
+    font-size: 1.7vw;
+    font-weight:400;
     color: #FFFFFF;
+    font-family: CircularStd;
 }
 .asilverse_stove
 {
-    font-weight: 400;
+    font-size:2;
+    font-weight: 600;
+    font-family: CircularStd;
 }
 .button_wrapper
 {
@@ -102,7 +102,7 @@
 {
     margin: 0px;
     margin-left: 20vw;
-    margin-top: 4vw;
+    margin-top: 3vw;
     width: 60vw;
     color: #eeeeee;
 }
@@ -112,13 +112,19 @@
     justify-content: space-between;
     width: 55vw;
     margin-left: 23vw;
-    margin-top: 1.5vw;
-    padding-bottom: 1.5vw;
+    margin-top: 2vw;
+    padding-bottom: 1vw;
 }
 .copyright
 {
-    font-size:0.95vw;
+    font-size:0.8vw;
     margin-top: 0.4vw;
+    font-family: CircularStd;
+    color:#646464;
+}
+.social
+{
+    margin-right: 1vw;
 }
 .social:hover path
 {

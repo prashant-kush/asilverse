@@ -14,18 +14,22 @@
 }
 .heading
 {
-  margin-top: 6vw;
-  margin-left: 6vw;
-  font-size: 2.6vw;
-  font-weight: 600;
+  margin-top: 9vw;
+  margin-left: 10vw;
+  font-size: 2.8vw;
+  font-weight: 450;
+  /* font-weight: 600; */
+  font-family: CircularStd;
 }
 .para
 {
     width: 35vw;
-    margin-left: 6vw;
+    margin-left: 10vw;
     font-weight: 450;
-    font-size:0.9vw;
+    font-size:1.1vw;
     font-weight: 400;
+    font-family: CircularStd;
+    color: #646464;
 }
 input
 {

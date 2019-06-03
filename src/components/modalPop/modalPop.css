@@ -21,9 +21,14 @@
     border-radius:1vw;
     margin-left: 50vw;
     text-align: left;
-    overflow: hidden;
+    overflow:scroll;
+    overflow-x: hidden;
     transition-property: width, margin-left, height;
     transition-duration:0.5s;
+}
+.modal_card::-webkit-scrollbar
+{
+    display: none;
 }
 .modal_card_inside_wrapper
 {
@@ -45,9 +50,11 @@
     margin-top:4vw;
     margin-left: 4vw;
     font-size:1.1vw;
+    font-family: CircularStd;
 }
 .modal_para
 {
     font-size:1vw;
     margin-left: 4vw;
+    font-family: CircularStd;
 }

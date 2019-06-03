@@ -6,6 +6,8 @@
 {
     margin: 0px;
     font-size: 3vw;
+    font-family: CircularStd;
+    font-weight: 350;
 }
 .card_album
 {
@@ -20,6 +22,8 @@
 .para2
 {
     font-size: 1.2vw;
+    font-family: CircularStd;
+    color:#646464;
 }
 .stove
 {

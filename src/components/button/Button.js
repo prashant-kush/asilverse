@@ -15,7 +15,8 @@ const Input=({title,width,height,marginTop,marginLeft,fontSize,color,background,
           height: `${height}`,
           padding: '0 2vw',
           width: `${width}`,
-          fontWeight:`${fontWeight}`
+          fontWeight:`${fontWeight}`,
+          fontFamily:`CircularStd`
         },
       });
       const classes = useStyles();

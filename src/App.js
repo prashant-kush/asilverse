@@ -4,7 +4,7 @@ import Home from "./components/homepage/Home.js";
 import Page2 from "./components/page2/Page2.js";
 import Page3 from "./components/page3/Page3.js";
 import Page4 from "./components/page4/Page4.js";
-
+import "circular-std";
 class App extends React.Component {
   constructor()
   {

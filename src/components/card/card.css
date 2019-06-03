@@ -28,8 +28,9 @@
 {
     margin: 0px;
     margin-top: 3.2vw;
-    font-size:1.1vw;
-    font-weight: 500;
+    font-size:1.4vw;
+    font-weight: 400;
+    font-family: CircularStd;
     
 }
 .card_image
@@ -43,6 +44,8 @@
 .card_para
 {
     font-size: 0.9vw;
+    font-family: CircularStd;
+    font-weight: 350;
 }
 .card:hover #shape
 {

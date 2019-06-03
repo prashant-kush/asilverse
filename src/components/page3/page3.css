@@ -6,7 +6,7 @@
 .types
 {
     margin:0px;
-    height:35vw;
+    height:40vw;
     width:70vw;
     border-radius: 1vw;
     color:#FFFFFF;
@@ -19,20 +19,23 @@
 .type_heading
 {
     margin: 0px;
-    margin-top: 4vw;
+    margin-top: 6vw;
     font-weight: 400;
     font-size: 2.3vw;
+    font-family: CircularStd;
 }
 .type_para
 {
     width: 45vw;
-    font-weight: 300;
     display: inline-block;
-    font-size: 1vw;
+    font-size: 0.9vw;
+    font-family: CircularStd;
+    font-weight: 100;
+    margin-top: 1vw;
 }
 .bullet_container
 {
-    margin-top: 1.5vw;
+    margin-top: 2.5vw;
     display: flex;
     justify-content: space-around;
     padding-left: 15vw;
@@ -46,25 +49,30 @@
 }
 .navigation_type_container
 {
-    margin-top: 1.5vw;
+    margin-top: 3.5vw;
     height: 2vw;
     display: flex;
     justify-content: space-around;
-    padding-left: 31vw;
-    padding-right: 31vw;
+    padding-left: 30vw;
+    padding-right: 30vw;
 }
 .type_direction
 {
     height: 1.8vw;
-    width:2.25vw;
+    width:2vw;
     border-radius: 50%;
-    background:#FFFFFF;
+    background:rgba(255,255,255,0.2);
     color:#BB5959;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 0.30vw;
+    padding-bottom: 0.05vw;
     font-weight: 700;
     font-size: 1.35vw;
+    font-family: CircularStd;
     cursor: pointer;
+}
+.type_direction:hover
+{
+    background: #FFFFFF;
 }
