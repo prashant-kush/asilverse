@@ -14,85 +14,17 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-left: 15.4vw;
-    padding-right: 15.4vw;
+    padding-left: 10vw;
+    padding-right: 6vw;
 }
 .para2
 {
     font-size: 1.2vw;
 }
-
-/* media queries for cards */
-
-@media only screen and (max-width: 1657px)
+.stove
 {
-    .card_album
-    {
-        padding-left: 15.2vw;
-        padding-right: 15.2vw;
-    }
-}
-@media only screen and (max-width: 1200px)
-{
-    .card_album
-    {
-        padding-left: 15.0vw;
-        padding-right: 15.0vw;
-    }
-}
-@media only screen and (max-width: 930px)
-{
-    .card_album
-    {
-        padding-left: 14.8vw;
-        padding-right: 14.8vw;
-    }
-}
-@media only screen and (max-width: 765px)
-{
-    .card_album
-    {
-        padding-left: 14.6vw;
-        padding-right: 14.6vw;
-    }
-}
-@media only screen and (max-width: 650px)
-{
-    .card_album
-    {
-        padding-left: 14.4vw;
-        padding-right: 14.4vw;
-    }
-}
-@media only screen and (max-width: 560px)
-{
-    .card_album
-    {
-        padding-left: 14.2vw;
-        padding-right: 14.2vw;
-    }
-}
-@media only screen and (max-width: 495px)
-{
-    .card_album
-    {
-        padding-left: 13.8vw;
-        padding-right: 13.8vw;
-    }
-}
-@media only screen and (max-width: 400px)
-{
-    .card_album
-    {
-        padding-left: 13.4vw;
-        padding-right: 13.4vw;
-    }
-}
-@media only screen and (max-width: 340px)
-{
-    .card_album
-    {
-        padding-left: 13.0vw;
-        padding-right: 13.0vw;
-    }
+    margin-top:8vw;
+    width: 35vw;
+    height: auto;
+    margin-bottom:8vw;
 }

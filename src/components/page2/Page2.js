@@ -1,6 +1,7 @@
 import React from "react";
 import "./page2.css";
 import SimpleCard from "./../card/Card.js";
+import stove from "./stove.png";
 class Page2 extends React.Component
 {
     constructor()
@@ -30,7 +31,7 @@ class Page2 extends React.Component
                         <SimpleCard path="k" heading="Body" />
 
                     </div>
-                    
+                    <img className="stove" src={stove}></img>
                 </div>
 
             );

@@ -1,5 +1,5 @@
 import React from "react";
-import stove from "./stove.png";
+
 import Bullet from "./../bullet/Bullet.js";
 import "./page3.css";
 import single from "./single.svg";
@@ -75,7 +75,7 @@ class Page3 extends React.Component
     {
         return(
             <div className="page3">
-                <img className="stove" src={stove}></img>
+                
                 <div className="types">
                     <h1 className="type_heading">Types of Stove Available</h1>
                     <div className="type_para_container">

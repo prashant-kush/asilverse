@@ -3,6 +3,7 @@ import "./page4.css";
 import CarouselCard from "./CarouselCard.js";
 import Button from "./../button/Button.js";
 import Contact from "./../contact/Contact.js";
+
 var left=0;
 class Page4 extends React.Component
 {
