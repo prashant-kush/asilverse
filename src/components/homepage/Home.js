@@ -11,6 +11,7 @@ class Home extends React.Component
         super(props);
         
     }
+    //function for scrolling the web-page to 2nd page on clicking "show more"
     onClick=()=>
     {
         window.scrollBy(0,this.props.width*0.374*1.447);

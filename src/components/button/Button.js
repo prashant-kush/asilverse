@@ -1,8 +1,10 @@
+//material-ui button component
 import React from "react";
 import { makeStyles } from '@material-ui/styles';
 import Button from '@material-ui/core/Button';
 const Input=({title,width,height,marginTop,marginLeft,fontSize,color,background,fontWeight})=>
 {
+  //imposing styles over default ones
     const useStyles = makeStyles({
         root: {
           background: `linear-gradient(45deg, ${background} 30%, ${background} 90%)`,

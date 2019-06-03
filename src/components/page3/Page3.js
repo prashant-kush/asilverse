@@ -19,6 +19,7 @@ class Page3 extends React.Component
                         check:0
                     }
     }
+    //for changing the bullets and image and style of the bullets as well
     onChange=(num)=>
     {
         if(num===1)
@@ -59,6 +60,7 @@ class Page3 extends React.Component
         ele.style.color="black";
         ele.classList.add("button-glow");
     }
+    //triggering onChange through navigation button's click
     onLeft=()=>
     {
         if(this.state.active_bullet===1)

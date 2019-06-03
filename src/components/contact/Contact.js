@@ -7,6 +7,7 @@ class Contact extends React.Component
     {
         super();
     }
+    //function for closing the contact modal
     onClick=()=>
     {
         const ele = document.getElementsByClassName("contact")[0];

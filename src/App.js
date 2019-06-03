@@ -4,20 +4,18 @@ import Home from "./components/homepage/Home.js";
 import Page2 from "./components/page2/Page2.js";
 import Page3 from "./components/page3/Page3.js";
 import Page4 from "./components/page4/Page4.js";
-import "circular-std";
+import "circular-std";//importing required font
 class App extends React.Component {
   constructor()
   {
     super();
     this.state=
         {
-            width:'1',
-            marginButton:"13%",
-            heightButton:"48px",
-            fontButton:"1em"
+            width:'1', //state for the viewport width
         }
-        this.myListener=this.onResize.bind(this);
+        this.myListener=this.onResize.bind(this); //binding event listener
   }
+  //function triggered when resize takes place
   onResize=()=>
 	{
 		const w=window.innerWidth;

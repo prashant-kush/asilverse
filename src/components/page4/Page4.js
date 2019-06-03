@@ -11,6 +11,7 @@ class Page4 extends React.Component
     {
         super(props);
     }
+    //for swiping the carousel left or right based upon the clicks of navigation buttons
     onSwipeRight=()=>
     {   
         left=document.getElementsByClassName("slide")[0].scrollLeft;
@@ -27,6 +28,7 @@ class Page4 extends React.Component
         {left=left-element.offsetWidth/2.5;
         element.scrollLeft=left;}
     }
+    //to show up contact modal and related animation
     onClick=()=>
     {
         const ele = document.getElementsByClassName("contact")[0];

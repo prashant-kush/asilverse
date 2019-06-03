@@ -7,7 +7,8 @@ class SimpleCard extends React.Component
     constructor(props)
     {
         super(props);
-    }  
+    }
+    //function for showing up the modal window
     onClick(n)
     {
         const element= document.getElementsByClassName("modal_pop")[n];
@@ -18,6 +19,7 @@ class SimpleCard extends React.Component
     }
     render()
     {
+        //rendering different card images(svg) based on the path prop fed to this component.
         if(this.props.path==="a")
             return(
                 <div>

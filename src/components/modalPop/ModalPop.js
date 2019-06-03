@@ -17,6 +17,7 @@ class ModalPop extends React.Component
     {
         super();
     }
+    //function for closing the modal window and related animation reset
     onClick(n)
     {
         const element=document.getElementsByClassName("modal_pop")[n];
@@ -28,6 +29,7 @@ class ModalPop extends React.Component
     }
     render()
     {
+        //rendering modals based on the path props fed to this component
         if(this.props.path==="a")
         return(
                 <div className="modal_pop" onClick={()=>this.onClick(0)}>

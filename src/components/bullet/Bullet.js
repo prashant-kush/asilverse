@@ -10,7 +10,7 @@ class Bullet extends React.Component
      onClick=()=>
      {
         
-         this.props.click(this.props.number);
+         this.props.click(this.props.number); //updating state for image and styling in Page3.js parent component 
          
      }
      render()
