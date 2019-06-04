@@ -20,6 +20,10 @@
     color: #FAFAFA;
     cursor: pointer;
 }
+.card:hover .card_para
+{
+    color:#fafafa;
+}
 .card:hover #Shape
 {
     fill:#FAFAFA;
@@ -46,6 +50,7 @@
     font-size: 0.9vw;
     font-family: CircularStd;
     font-weight: 350;
+    color: #646464;
 }
 .card:hover #shape
 {
